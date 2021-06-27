@@ -31,7 +31,7 @@ public class SeeCruisepackages implements Task {
                 TabChange.inTheBrowser(),
                 WaitUntil.the(AVAILABLE_ROOM, isVisible())
         );
-        String informationObject = Text.of(AVAILABLE_ROOM).viewedBy(actor).value().substring(0,5);
+        String informationObject = Text.of(AVAILABLE_ROOM).viewedBy(actor).value().substring(0,7);
         actor.remember("INFORMATION_OBJECT", informationObject);
     }
 
