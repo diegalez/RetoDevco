@@ -14,4 +14,4 @@ Característica: Ver si hay habitaciones disponibles en un crucero a las bahamas
 
     Ejemplos:
       |city       | messageExpected       |
-      |Bahamas    | Suite                 |
+      |Bahamas    | Balcony               |
