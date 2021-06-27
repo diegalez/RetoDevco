@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Ver si hay habitaciones disponibles en un crucero a las bahamas" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-06-26T05:23:16" hostname="SSMEDLAPPRODZ6" time="27.398">
+  <properties/>
+  <testcase name="Ver si hay habitaciones disponibles en un crucero a las bahamas" classname="Ver si hay habitaciones disponibles en un crucero a las bahamas" time="27.398"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - STARTING STEP Dado que el usuario ingresa en la plataforma
+Starting ChromeDriver 90.0.4430.24 (4c6d850f087da467d926e8eddb76550aed655991-refs/branch-heads/4430@{#429}) on port 33028
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1624684998.272][WARNING]: This version of ChromeDriver has not been tested with Chrome version 91.
+jun 26, 2021 12:23:18 A.M. org.openqa.selenium.remote.ProtocolHandshake createSession
+INFORMACIÓN: Detected dialect: W3C
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - FINISHING STEP
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - STARTING STEP Cuando busca si hay cruceros disponibles a las Bahamas Bahamas
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - STARTING STEP usuario search cruise in the catalog
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - STARTING STEP usuario clicks on button cruises
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - FINISHING STEP
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - STARTING STEP usuario clicks on select destination
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - FINISHING STEP
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - STARTING STEP usuario clicks on select destination option
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - FINISHING STEP
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - STARTING STEP usuario clicks on button search
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - FINISHING STEP
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - STARTING STEP usuario clicks on first option
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - FINISHING STEP
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - STARTING STEP Usuario tab change
+[Test worker] INFO com.devco.interactions.TabChange - Cruise | Travelocity
+[Test worker] INFO com.devco.interactions.TabChange - Cruise | Travelocity
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - FINISHING STEP
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - FINISHING STEP
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - FINISHING STEP
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - STARTING STEP Entonces deberia en la ventana cruise ver el mensaje Suite que indique que hay habitaciones disponibles
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - STARTING STEP Then validate should be (true)
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - FINISHING STEP
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - FINISHING STEP
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - FINISHING STEP
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - ?[92m
+        __    _____ _____ ____ _____   ____   _    ____  ____  _____ ____  
+  _     \ \  |_   _| ____/ ___|_   _| |  _ \ / \  / ___|/ ___|| ____|  _ \ 
+ (_)_____| |   | | |  _| \___ \ | |   | |_) / _ \ \___ \\___ \|  _| | | | |
+  _|_____| |   | | | |___ ___) || |   |  __/ ___ \ ___) |___) | |___| |_| |
+ (_)     | |   |_| |_____|____/ |_|   |_| /_/   \_\____/|____/|_____|____/ 
+        /_/                                                                
+
+TEST PASSED: Ver si hay habitaciones disponibles en un crucero a las bahamas
+----------------------------------------------------------------------------?[0m
+]]></system-err>
+</testsuite>

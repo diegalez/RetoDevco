@@ -1,0 +1,39 @@
+defaultTasks 'clean', 'test', 'aggregate'
+
+
+apply plugin: 'java'
+apply plugin: 'idea'
+apply plugin: 'net.serenity-bdd.aggregator'
+
+sourceCompatibility = 1.8
+targetCompatibility = 1.8
+
+repositories {
+    mavenLocal()
+    jcenter()
+}
+
+buildscript {
+    repositories {
+        mavenLocal()
+        jcenter()
+    }
+    dependencies {
+        classpath("net.serenity-bdd:serenity-gradle-plugin:1.9.9")
+    }
+}
+
+
+ext{
+    serenityCucumberVersion = '1.9.7'
+}
+
+dependencies {
+    testCompile group: 'junit', name: 'junit', version: '4.12'
+    implementation "net.serenity-bdd:serenity-cucumber:$rootProject.ext.serenityCucumberVersion"
+}
+
+
+gradle.startParameter.continueOnFailure = true
+
+test.finalizedBy(aggregate)

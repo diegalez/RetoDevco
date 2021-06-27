@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Ver si hay viajes por carretera disponibles" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-06-26T05:24:09" hostname="SSMEDLAPPRODZ6" time="24.422">
+  <properties/>
+  <testcase name="Ver si hay viajes por carretera disponibles" classname="Ver si hay viajes por carretera disponibles" time="24.422"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - STARTING STEP Dado que el usuario ingresa en la plataforma
+Starting ChromeDriver 90.0.4430.24 (4c6d850f087da467d926e8eddb76550aed655991-refs/branch-heads/4430@{#429}) on port 7919
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1624685050.872][WARNING]: This version of ChromeDriver has not been tested with Chrome version 91.
+jun 26, 2021 12:24:11 A.M. org.openqa.selenium.remote.ProtocolHandshake createSession
+INFORMACIÓN: Detected dialect: W3C
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - FINISHING STEP
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - STARTING STEP Cuando busca si hay viajes por carretera disponibles
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - STARTING STEP usuario Watch road trips
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - STARTING STEP usuario clicks on image watch road trips
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - FINISHING STEP
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - STARTING STEP Usuario tab change
+[Test worker] INFO com.devco.interactions.TabChange - 10 bucket-list road trips to take with your family - Inspire | Travelocity.com
+[Test worker] INFO com.devco.interactions.TabChange - 10 bucket-list road trips to take with your family - Inspire | Travelocity.com
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - FINISHING STEP
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - FINISHING STEP
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - FINISHING STEP
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - STARTING STEP Entonces deberia en la ventana inspire ver el mensaje 10 bucket-list road trips
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - STARTING STEP Then the message should be a string containing '10'
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - STARTING STEP usuario wait 3ond before of execute the next action
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - FINISHING STEP
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - FINISHING STEP
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - FINISHING STEP
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - FINISHING STEP
+[Test worker] INFO net.thucydides.core.steps.ConsoleLoggingListener - ?[92m
+        __    _____ _____ ____ _____   ____   _    ____  ____  _____ ____  
+  _     \ \  |_   _| ____/ ___|_   _| |  _ \ / \  / ___|/ ___|| ____|  _ \ 
+ (_)_____| |   | | |  _| \___ \ | |   | |_) / _ \ \___ \\___ \|  _| | | | |
+  _|_____| |   | | | |___ ___) || |   |  __/ ___ \ ___) |___) | |___| |_| |
+ (_)     | |   |_| |_____|____/ |_|   |_| /_/   \_\____/|____/|_____|____/ 
+        /_/                                                                
+
+TEST PASSED: Ver si hay viajes por carretera disponibles
+----------------------------------------------------------------------------?[0m
+]]></system-err>
+</testsuite>

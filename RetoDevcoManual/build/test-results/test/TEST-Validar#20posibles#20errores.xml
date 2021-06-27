@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Validar posibles errores" tests="15" skipped="0" failures="0" errors="0" timestamp="2021-06-26T21:55:57" hostname="SSMEDLAPPRODZ6" time="36.699">
+  <properties/>
+  <testcase name="Verificar que cuando se ingrese desde un mobile todos los objetos mantengan un orden" classname="Validar posibles errores" time="11.031"/>
+  <testcase name="Verificar que cuando se de click en el boton de Sign se abra un popup" classname="Validar posibles errores" time="1.926"/>
+  <testcase name="Verificar que la experiencia no permita crear una cuenta si hay campos vacios" classname="Validar posibles errores" time="1.92"/>
+  <testcase name="Verificar que la experiencia no permita ver las credenciales" classname="Validar posibles errores" time="1.93"/>
+  <testcase name="Verificar que el boton traducta correctamente todos los elementos" classname="Validar posibles errores" time="1.902"/>
+  <testcase name="Verificar la informacion presentada en los carruseles" classname="Validar posibles errores" time="1.833"/>
+  <testcase name="Verificar que los loading se muestren correctamente cuando se hace un cambio de pantalla" classname="Validar posibles errores" time="1.846"/>
+  <testcase name="Verificar que cuando se realice un cambio de pantalla no se tarde mas de 5 segundos" classname="Validar posibles errores" time="1.767"/>
+  <testcase name="Verificar que cuando escanee el QR redireccione a la aplicacion de travelocity" classname="Validar posibles errores" time="1.864"/>
+  <testcase name="Verificar que cuando se busque un vuelo que pueda verse con inconvenientes con cambios de horario por temas de covid se muestre un mensaje de notificacion" classname="Validar posibles errores" time="1.783"/>
+  <testcase name="Verificar que cuando se ingrese a la ventana de servicio se muestren todos los popular topics" classname="Validar posibles errores" time="1.718"/>
+  <testcase name="Verificar que cuando se de click en el Help para hablar con un agente virtual se abra correctamente" classname="Validar posibles errores" time="1.732"/>
+  <testcase name="Verificar que cuando se de click en buscar si no se ingresan valores se muestren warning" classname="Validar posibles errores" time="1.757"/>
+  <testcase name="Verificar que cuando se de click en la imagen de travelocity desde cualquier ventana este redirija al home" classname="Validar posibles errores" time="1.827"/>
+  <testcase name="Verificar que se envie el mensaje de texto" classname="Validar posibles errores" time="1.764"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
