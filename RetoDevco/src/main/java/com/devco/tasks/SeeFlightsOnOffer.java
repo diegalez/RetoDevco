@@ -34,7 +34,7 @@ public class SeeFlightsOnOffer implements Task {
                 GetValues.ofTheFront(FLIGHTS_UNDER));
         String flights_under = actor.recall("OBJECT");
         actor.should(seeThat(Validate.ifObject(flights_under.substring(15,18),price), is(equalTo(true))));
-        actor.attemptsTo(Click.on(FIRST_OPTION_IN_OFFER),
+        actor.attemptsTo(Click.on(FIRST_OPTION_IN_OFFER),Waits.seconds(6),
         WaitUntil.the(SELECT_FLIGHTS_OPTION, isVisible()), GetValues.ofTheFront(SELECT_FLIGHTS_OPTION)
                 );
     }
