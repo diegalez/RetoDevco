@@ -8,7 +8,7 @@ public class Cruise {
             .locatedBy("(//a//span[contains(text(), 'Continue')]/ancestor::a)[1]");
 
     public static final Target AVAILABLE_ROOM = Target.the("available room option")
-            .locatedBy("(//div/ancestor::div[@class='card-description'])[4]");
+            .locatedBy("(//div/ancestor::div[@class='card-description'])[2]");
 
 
 }
